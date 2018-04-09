@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Artk6_test</string>
+    <string name="launch">Click ME to Launch</string>
 </resources>

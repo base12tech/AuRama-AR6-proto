@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="vertical"
-    android:baselineAligned="false"
-    android:id="@+id/mainLayout"
     android:layout_gravity="center"
-    android:layout_weight="1">
+    android:layout_weight="1"
+    android:baselineAligned="false">
 
-</FrameLayout>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="368dp"
+        android:layout_height="48dp"
+        android:text="@string/launch"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
